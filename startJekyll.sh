@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve
+cd blog && bundle exec jekyll serve -w
