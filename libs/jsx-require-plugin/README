@@ -1,0 +1,5 @@
+Downloaded from https://github.com/philix/jsx-requirejs-plugin/tree/v0.4.0
+
+This plugin uses a modified version of the JSXTransformer work around issues with 
+the r.js optimizer. See the URL above and 
+https://github.com/philix/jsx-requirejs-plugin/issues/9 for more details.

@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="/libs/require-config.js"></script>
+    <script src="/libs/require.js"></script>
+</head>
+<body>
+<h1>Explorations</h1>
+<h2>React.js</h2>
+<div id="clockPlace"></div>
+</body>
+
+<script>
+    require(['jquery', 'react', 'jsx!explore/js/clock'], function ($, React, Clock) {
+        React.render(React.createElement(Clock), $('#clockPlace').get(0));
+    });
+</script>
+</html>
